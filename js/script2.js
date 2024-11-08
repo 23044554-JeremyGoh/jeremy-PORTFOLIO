@@ -18,8 +18,13 @@ document.addEventListener('DOMContentLoaded', function() {
     type();
 });
 
-document.getElementById('theme-toggle').addEventListener('click', () => {
-    document.body.classList.toggle('light-mode');
-    document.querySelectorAll('nav, .contact-btn, .content-section, .toggleContainer, .text')
-        .forEach(el => el.classList.toggle('light-mode'));
-});
+// document.getElementById('theme-toggle').addEventListener('click', () => {
+//     document.body.classList.toggle('light-mode');
+//     document.querySelectorAll('nav, .contact-btn, .content-section, .toggleContainer, .text')
+//         .forEach(el => el.classList.toggle('light-mode'));
+// });
+
+
+
+
+

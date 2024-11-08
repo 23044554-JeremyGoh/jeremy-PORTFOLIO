@@ -12,10 +12,14 @@
         href="https://fonts.googleapis.com/css2?family=Calistoga&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <title>Jeremy's Portfolio</title>
+   
 </head>
 
 <body>
-    <header>
+ 
+
+    <header id="navbar">
+        <a href="#navbar"><img src="img/logo.png" alt="Logo" class="logo"></a>
         <nav>
             <ul>
                 <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
@@ -61,7 +65,7 @@
     <div class="about-info">
         <div class="about-content">
             <h2>About Me</h2>
-            <p>Hello! I'm Jeremy, a second-year student at Republic Polytechnic, studying Digital Design and Development. I’m interested in graphic design and building my coding skills. <br><br>I’m also passionate about football, which inspires me to bring teamwork and dedication to my work. My goal is to become a full-stack developer.</p>
+            <p>Hello! I'm Jeremy, a second-year student at Republic Polytechnic, studying Digital Design and Development. I'm interested in graphic design and building my coding skills. <br><br>I'm also passionate about football, which inspires me to bring teamwork and dedication to my work. My goal is to become a full-stack developer.</p>
         </div>
         <div class="about-img">
             <img src="img/me.jpeg" alt="Profile Picture">
@@ -147,50 +151,86 @@
     </div>
 </section>
 
-    <section id="portfolio">
-        <h2>Featured Projects</h2>
-        <div class="skills-container">
-            <div class="project-card">
-                <img src="img/football app.png" alt="Project 1" class="icon">
-                <div class="text-container">
-                    <h3>Football Apparel App</h3>
-                    <p>Web App</p>
+<section id="portfolio">
+    <h2>My Projects</h2>
+    <div class="skills-container">
+        <div class="project-card">
+            <img src="img/namecard.png" alt="Project 1" class="icon">
+            <div class="text-container">
+                <h3>Name Card</h3>
+                <p>Design</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/stickers.png" alt="Project 2" class="icon">
+            <div class="text-container">
+                <h3>Chat Stickers</h3>
+                <p>Design</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/portfoliohomepage.png" alt="Project 3" class="icon">
+            <div class="text-container">
+                <h3>Portfolio Website Design</h3>
+                <p>Design</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/football app.png" alt="Project 4" class="icon">
+            <div class="text-container">
+                <h3>Football Apparel</h3>
+                <p>App Development</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="img/footballappquiz.png" alt="Project 5" class="icon">
+            <div class="text-container">
+                <h3>Football Quiz App</h3>
+                <p>App Development</p>
+            </div>
+        </div>
+        <!-- <div class="project-card">
+            <img src="img/project6.png" alt="Project 6" class="icon">
+            <div class="text-container">
+                <h3>Project Name 6</h3>
+                <p>Database Design</p>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+   
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:jeremy.goh.2022@rp.edu.sg">23044554@myrp.edu.sg</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/jeremyygohh/" target="_blank">jeremyygohh</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/23044554-JeremyGoh/" target="_blank">23044554-JeremyGoh</a>
                 </div>
             </div>
-            <div class="project-card">
-                <img src="img/stickers.png" alt="Project 2" class="icon">
-                <div class="text-container">
-                    <h3>Chat Stickers</h3>
-                    <p>Design</p>
+            <div class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="img/project3.png" alt="Project 3" class="icon">
-                <div class="text-container">
-                    <h3>Project Name 3</h3>
-                    <p>Full Stack</p>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="img/project4.png" alt="Project 4" class="icon">
-                <div class="text-container">
-                    <h3>Project Name 4</h3>
-                    <p>UI/UX Design</p>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
                 </div>
-            </div>
-            <div class="project-card">
-                <img src="img/project5.png" alt="Project 5" class="icon">
-                <div class="text-container">
-                    <h3>Project Name 5</h3>
-                    <p>Game Development</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="img/project6.png" alt="Project 6" class="icon">
-                <div class="text-container">
-                    <h3>Project Name 6</h3>
-                    <p>Database Design</p>
-                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
             </div>
         </div>
     </section>
@@ -202,7 +242,7 @@
             <div class="card container-card bg-green-box">
                 <div class="card-title">Background</div>
                 <div class="card-description">
-                    I'm Jeremy, a passionate full-stack developer based in Singapore. I’m a second-year student at Republic Polytechnic, specializing in software development and design.
+                    I'm Jeremy, a passionate full-stack developer based in Singapore. I'm a second-year student at Republic Polytechnic, specializing in software development and design.
                 </div>
             </div>
             <div class="card container-card bg-yellow-box">
@@ -221,6 +261,7 @@
     </div> -->
     </section>
 
+    
     <script src="js/script2.js"></script>
 </body>
 
